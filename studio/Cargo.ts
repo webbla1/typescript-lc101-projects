@@ -1,6 +1,6 @@
-import { Payload } from "./Payload";
+import Payload from "./Payload";
 
-export class Cargo implements Payload {
+export default class Cargo implements Payload {
     massKg: number;
     material: string;
     constructor(massKg: number, material: string){

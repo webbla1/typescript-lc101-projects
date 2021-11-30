@@ -1,6 +1,6 @@
-import { Payload } from "./Payload";
+import Payload from "./Payload";
 
-export class Astronaut implements Payload {
+export default class Astronaut implements Payload {
     massKg: number;
     name: string;
     constructor(massKg: number, name: string){
